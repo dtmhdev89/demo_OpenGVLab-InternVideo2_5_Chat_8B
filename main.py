@@ -8,7 +8,7 @@ from transformers import AutoModel, AutoTokenizer
 
 
 # model setting
-model_path = 'OpenGVLab/InternVideo2_5_Chat_8B'
+model_path = 'OpenGVLab/InternVideo2-Stage2_6B-224p-f4'
 
 tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
 model = AutoModel.from_pretrained(model_path, trust_remote_code=True).half().cuda().to(torch.bfloat16)
