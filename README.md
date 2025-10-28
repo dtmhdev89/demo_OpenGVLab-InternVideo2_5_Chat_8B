@@ -1,0 +1,1 @@
+# demo_OpenGVLab-InternVideo2_5_Chat_8B
